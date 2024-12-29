@@ -1,0 +1,32 @@
+add content
+parameter: Namespace(H=4, L=4, batch_size=64, dataset='book', dim=256, h_hop=3, kge_interval=3, l2_weight=1e-06, lr_kge=2e-05, lr_rs=0.0002, n_epochs=10, n_memory=16, n_mix_hop=2, neighbor_sample_size=8, p=4.0, p_hop=1, ssl_weight=0.001, temp=30.0)
+epoch 0    train auc: 0.8386  acc: 0.7430    eval auc: 0.7652  acc: 0.6778    test auc: 0.7630  acc: 0.6756
+precision: 0.0400	0.0240	0.0140	0.0075	0.0038	recall: 0.0535	0.0835	0.0960	0.1060	0.1277	f1: 0.0458	0.0373	0.0244	0.0140	0.0074	
+
+epoch 1    train auc: 0.9208  acc: 0.8376    eval auc: 0.8002  acc: 0.7159    test auc: 0.7976  acc: 0.7159
+precision: 0.0450	0.0220	0.0130	0.0075	0.0038	recall: 0.0685	0.0785	0.0910	0.1017	0.1327	f1: 0.0543	0.0344	0.0228	0.0140	0.0074	
+
+epoch 2    train auc: 0.9623  acc: 0.8978    eval auc: 0.8116  acc: 0.7279    test auc: 0.8106  acc: 0.7292
+precision: 0.0350	0.0200	0.0150	0.0080	0.0046	recall: 0.0485	0.0592	0.1017	0.1042	0.1525	f1: 0.0407	0.0299	0.0261	0.0149	0.0089	
+
+epoch 3    train auc: 0.9824  acc: 0.9362    eval auc: 0.8142  acc: 0.7328    test auc: 0.8126  acc: 0.7353
+precision: 0.0250	0.0240	0.0150	0.0090	0.0048	recall: 0.0235	0.0670	0.0920	0.1060	0.1610	f1: 0.0242	0.0353	0.0258	0.0166	0.0093	
+
+epoch 4    train auc: 0.9927  acc: 0.9628    eval auc: 0.8139  acc: 0.7306    test auc: 0.8120  acc: 0.7336
+precision: 0.0150	0.0200	0.0140	0.0095	0.0050	recall: 0.0135	0.0620	0.0870	0.1295	0.1685	f1: 0.0142	0.0302	0.0241	0.0177	0.0097	
+
+epoch 5    train auc: 0.9967  acc: 0.9763    eval auc: 0.8132  acc: 0.7324    test auc: 0.8100  acc: 0.7297
+precision: 0.0250	0.0180	0.0120	0.0080	0.0050	recall: 0.0242	0.0452	0.0627	0.0977	0.1635	f1: 0.0246	0.0257	0.0201	0.0148	0.0097	
+
+epoch 6    train auc: 0.9987  acc: 0.9863    eval auc: 0.8069  acc: 0.7262    test auc: 0.8053  acc: 0.7269
+precision: 0.0150	0.0140	0.0110	0.0075	0.0054	recall: 0.0135	0.0360	0.0710	0.0967	0.1700	f1: 0.0142	0.0202	0.0190	0.0139	0.0105	
+
+epoch 7    train auc: 0.9996  acc: 0.9926    eval auc: 0.8049  acc: 0.7230    test auc: 0.8034  acc: 0.7247
+precision: 0.0100	0.0140	0.0100	0.0080	0.0056	recall: 0.0125	0.0385	0.0560	0.1110	0.2081	f1: 0.0111	0.0205	0.0170	0.0149	0.0109	
+
+epoch 8    train auc: 0.9999  acc: 0.9959    eval auc: 0.8015  acc: 0.7200    test auc: 0.8023  acc: 0.7225
+precision: 0.0050	0.0140	0.0130	0.0090	0.0054	recall: 0.0025	0.0475	0.0810	0.1260	0.1902	f1: 0.0033	0.0216	0.0224	0.0168	0.0105	
+
+epoch 9    train auc: 1.0000  acc: 0.9974    eval auc: 0.7988  acc: 0.7183    test auc: 0.7985  acc: 0.7194
+precision: 0.0100	0.0100	0.0130	0.0075	0.0048	recall: 0.0075	0.0325	0.0857	0.1007	0.1585	f1: 0.0086	0.0153	0.0226	0.0140	0.0093	
+
